@@ -23,11 +23,11 @@ const Circle = ({ children, ...restProps }: React.PropsWithChildren) => {
 };
 
 const handleGithubCLick = () => {
-  window.open('https://github.com/infiniflow/ragflow', 'target');
+  window.open('#', 'target');
 };
 
 const handleDocHelpCLick = () => {
-  window.open('https://ragflow.io/docs/dev/category/guides', 'target');
+  window.open('#', 'target');
 };
 
 const RightToolBar = () => {
@@ -78,7 +78,7 @@ const RightToolBar = () => {
           </Space>
         </Dropdown>
         <Circle>
-          <GithubOutlined onClick={handleGithubCLick} />
+          
         </Circle>
         <Circle>
           <CircleHelp className="size-4" onClick={handleDocHelpCLick} />
